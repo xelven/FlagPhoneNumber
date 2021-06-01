@@ -177,7 +177,7 @@ open class FPNTextField: UITextField, FPNCountryPickerDelegate, FPNDelegate {
 		}
 	}
 
-	@objc private func displayNumberKeyBoard() {
+	@objc public func displayNumberKeyBoard() {
 		inputView = nil
 		inputAccessoryView = textFieldInputAccessoryView
 		tintColor = .gray
